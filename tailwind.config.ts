@@ -64,7 +64,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				irerero: {
-					blue: '#2563EB',
+					blue: '#FEA500',
 					green: '#10B981',
 					yellow: '#FBBF24',
 					light: '#F9FAFB',

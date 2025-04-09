@@ -5,6 +5,7 @@ import DownloadCTA from '../components/DownloadCTA';
 import Mission from '../components/Mission';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import HowItWorks from '@/components/HowItWorks';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <Features />
+        <HowItWorks />
         <Mission />
         <DownloadCTA />
       </main>

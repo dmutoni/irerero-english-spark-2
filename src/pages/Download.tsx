@@ -63,13 +63,15 @@ const DownloadPage = () => {
                     </div>
                   </div>
                   
-                  <a 
-                    href="#" 
-                    className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg flex items-center justify-center transition-colors"
+                  <div
+                    className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg flex items-center justify-center transition-colors cursor-pointer"
+                    onClick= {() => {
+                      window.location.href = '/irerero_app.apk';
+                  }}
                   >
-                    <Download className="h-5 w-5 mr-2" />
+                    <Download className="h-5 w-5 mr-2"  />
                     Download APK (v1.2.0)
-                  </a>
+                  </div>
                   
                   <div className="mt-4 text-sm text-gray-500 text-center">
                     File size: 22.5 MB
@@ -116,13 +118,15 @@ const DownloadPage = () => {
                     </div>
                   </div>
                   
-                  <a 
-                    href="#" 
-                    className="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-4 rounded-lg flex items-center justify-center transition-colors"
+                  <div 
+                    onClick= {() => {
+                      window.location.href = '/irerero_app.apk';
+                  }}
+                    className="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-4 rounded-lg flex items-center justify-center transition-colors cursor-pointer"
                   >
                     <Download className="h-5 w-5 mr-2" />
                     Download IPA (v1.2.0)
-                  </a>
+                  </div>
                   
                   <div className="mt-4 text-sm text-gray-500 text-center">
                     File size: 28.3 MB

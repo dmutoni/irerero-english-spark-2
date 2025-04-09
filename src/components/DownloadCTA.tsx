@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import { Download } from 'lucide-react';
+import { Button } from 'react-day-picker';
 
 const DownloadCTA = () => {
   return (
@@ -16,20 +17,26 @@ const DownloadCTA = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link 
-              to="/download" 
-              className="bg-white text-irerero-blue hover:bg-gray-100 inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors"
+            <div 
+              onClick= {() => {
+                    window.location.href = '/irerero_app.apk';
+                }
+              }
+              className="bg-white text-irerero-blue hover:bg-gray-100 inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
             >
               <Download className="h-5 w-5 mr-2" />
               Download APK (Android)
-            </Link>
-            <Link 
-              to="/download" 
-              className="bg-white text-irerero-blue hover:bg-gray-100 inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors"
+            </div>
+            <div 
+               onClick= {() => {
+                window.location.href = '/irerero_app.apk';
+            }
+          }
+              className="bg-white text-irerero-blue hover:bg-gray-100 inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
             >
               <Download className="h-5 w-5 mr-2" />
               Download IPA (iOS)
-            </Link>
+            </div>
           </div>
           
           <div className="mt-8 text-white text-opacity-80 text-sm">

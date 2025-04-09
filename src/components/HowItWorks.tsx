@@ -8,31 +8,31 @@ import {
 
 const steps = [
 {
-    icon: <Smartphone size={24} className="text-quickride-purple" />,
+    icon: <Smartphone size={24} className="text-Irerero-purple" />,
     title: "Download the App",
     type: "web",
-    description: "Get QuickRide on your Android or iOS device by clicking the download buttons on this website."
+    description: "Get Irerero on your Android or iOS device by clicking the download buttons on this website."
 },
 {
-    icon: <Search size={24} className="text-quickride-purple" />,
+    icon: <Search size={24} className="text-Irerero-purple" />,
     title: "Find Nearby Riders",
     type: "mobile",
     description: "Enter your pickup location to see available motorcycle riders nearby."
 },
 {
-    icon: <MessageCircle size={24} className="text-quickride-purple" />,
+    icon: <MessageCircle size={24} className="text-Irerero-purple" />,
     title: "Negotiate Your Fare",
     type: "mobile",
     description: "Chat with the rider to agree on a fair price for your journey."
 },
 {
-    icon: <MapPin size={24} className="text-quickride-purple" />,
+    icon: <MapPin size={24} className="text-Irerero-purple" />,
     title: "Track Your Ride",
     type: "mobile",
     description: "Follow your rider's location in real-time as they come to pick you up and as they take you to your destination."
 },
 {
-    icon: <ThumbsUp size={24} className="text-quickride-purple" />,
+    icon: <ThumbsUp size={24} className="text-Irerero-purple" />,
     title: "Rate Your Experience",
     type: "mobile",
     description: "After your ride, rate your driver and provide feedback to help others."
@@ -44,7 +44,7 @@ return (
     <section id="how-it-works" className="py-16 md:py-24">
     <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-        <h2 className="gradient-text mb-4">How QuickRide Works</h2>
+        <h2 className="gradient-text mb-4">How Irerero Works</h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Getting from point A to B has never been easier with our simple process.
         </p>
@@ -63,7 +63,7 @@ return (
                 </div>
                 
                 <div className="md:w-14 relative">
-                <div className="absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-quickride-green flex items-center justify-center z-10">
+                <div className="absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-Irerero-green flex items-center justify-center z-10">
                     {step.icon}
                 </div>
                 </div>

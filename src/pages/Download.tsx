@@ -143,7 +143,7 @@ const DownloadPage = () => {
                     <li className="text-gray-700">
                       <span className="font-medium">Enable Unknown Sources:</span>
                       <p className="text-gray-600 ml-6 mt-1">
-                        Go to Settings > Security > Unknown Sources and enable it to allow installation from sources other than Play Store.
+                        Go to Settings {'>'} Security {'>'} Unknown Sources and enable it to allow installation from sources other than Play Store.
                       </p>
                     </li>
                     <li className="text-gray-700">
@@ -192,7 +192,7 @@ const DownloadPage = () => {
                     <li className="text-gray-700">
                       <span className="font-medium">Trust Developer:</span>
                       <p className="text-gray-600 ml-6 mt-1">
-                        Go to Settings > General > Profiles & Device Management, find the developer profile, and tap "Trust".
+                        Go to Settings {'>'} General {'>'} Profiles & Device Management, find the developer profile, and tap "Trust".
                       </p>
                     </li>
                     <li className="text-gray-700">

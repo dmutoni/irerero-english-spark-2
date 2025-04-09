@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Welcome to your Irerero project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/1eac7b0c-8d44-4f4b-a887-e32e666c6acc
+**URL**: https://irerero-english-spark-2-2xex.vercel.app/
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use Irerero**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1eac7b0c-8d44-4f4b-a887-e32e666c6acc) and start prompting.
+Simply visit the [Irerero Project](https://irerero-english-spark-2-2xex.vercel.app/) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via Irerero will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Irerero.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +62,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/1eac7b0c-8d44-4f4b-a887-e32e666c6acc) and click on Share -> Publish.
+Simply open [Irerero](https://Irerero.dev/projects/1eac7b0c-8d44-4f4b-a887-e32e666c6acc) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my Irerero project?
 
 Yes it is!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Read more here: [Setting up a custom domain](https://docs.Irerero.dev/tips-tricks/custom-domain#step-by-step-guide)

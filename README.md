@@ -1,73 +1,108 @@
-# Welcome to your Irerero project
+# 📙 Irerero English Spark 2
 
-## Project info
+_Irerero English Spark 2_ is the second version of the Irerero app focused on expanding vocabulary, reading comprehension, and early literacy for Rwandan children. It builds on the first version by introducing new storybooks, more interactive visuals, and refined educational features tailored for kids learning English.
 
-**URL**: https://irerero-english-spark-2-2xex.vercel.app/
+---
 
-## How can I edit this code?
+## 🌟 Project Goals
 
-There are several ways of editing your application.
+- Improve early English literacy through digital storybooks and games
+- Encourage self-paced, fun learning for children aged 4–8
+- Use storytelling, pictures, and sounds to enhance vocabulary and memory
+- Reduce barriers by enabling offline use and intuitive design
 
-**Use Irerero**
+---
 
-Simply visit the [Irerero Project](https://irerero-english-spark-2-2xex.vercel.app/) and start prompting.
+## ✨ Features
 
-Changes made via Irerero will be committed automatically to this repo.
+| Feature                | Description                                                       |
+|------------------------|-------------------------------------------------------------------|
+| 📖 New Stories         | Digitally illustrated storybooks with interactive page flipping      |
+| 🔊 Audio Narration    | Text-to-speech reads aloud for learners                             |
+| 🎮 Word Recognition    | Tap to hear words pronounced individually                            |
+| 🧠 Simple Vocabulary  | Use of beginner-friendly English words                              |
+| 📲 Device Friendly     | Optimized for phones and tablets                                   |
+| 🌐 Offline Access     | Learners don’t need to be connected to the internet to read stories |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Irerero.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ✅ Prerequisites
 
-Follow these steps:
+- Flutter SDK installed
+- Android Studio or VS Code
+- Android/iOS emulator or real device
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🧶 Run Locally
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/dmutoni/irerero-english-spark-2.git
+cd irerero-english-spark-2
+flutter pub get
+flutter run
 ```
 
-**Edit a file directly in GitHub**
+> 🚀 Use `flutter build apk` or `flutter build ios` for release builds
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🌐 Localization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Supports English, with potential for future Kinyarwanda or French integration.
 
-## What technologies are used for this project?
+```dart
+MaterialApp(
+  supportedLocales: [
+    Locale('en', 'US'),
+    // Locale('rw', 'RW'), // future support
+  ],
+)
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📂 Folder Structure
 
-## How can I deploy this project?
+```bash
+lib/
+├── main.dart
+├── pages/                # Story pages, home, onboarding
+├── widgets/              # Common UI components
+├── assets/               # Image, audio assets
+├── data/                 # Static story content and models
+├── helpers/              # TTS and utilities
+```
 
-Simply open [Irerero](https://Irerero.dev/projects/1eac7b0c-8d44-4f4b-a887-e32e666c6acc) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Irerero project?
+## 💬 Contribution Guide
 
-Yes it is!
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m "Add my feature"`
+4. Push to GitHub: `git push origin feature/my-feature`
+5. Create a Pull Request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.Irerero.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📢 Contact
+
+**Denyse Mutoni Uwingeneye**  
+GitHub: [@dmutoni](https://github.com/dmutoni)  
+Country: Rwanda
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+---
+
+## 🙏 Acknowledgements
+
+- Flutter and Dart community
+- Kids and educators who tested the first version
+- TTS and open educational resources used to power stories and narration
+
